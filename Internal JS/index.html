@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="styles.css"
+    />
+    <title>Vero Game Store</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Vero Game Store</h1>
+      <table id="cart">
+        <!-- Isi tabel akan diisi oleh JavaScript -->
+      </table>
+      <div class="total"><strong>Total Bayar:</strong> <span id="totalPayment">0</span></div>
+      <button onclick="addToCart('Cyberpunk 2077', 300000)">Cyberpunk 2077</button>
+      <button onclick="addToCart('Starfield', 350000)">Starfield</button>
+      <button onclick="addToCart('Halo Infinite', 400000)">Halo Infinite</button>
+      <button onclick="addToCart('Mass Effect Legendary Edition', 450000)">Mass Effect</button>
+      <button onclick="addToCart('Death Stranding', 500000)">Death Stranding</button>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
